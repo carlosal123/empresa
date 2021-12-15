@@ -1,0 +1,160 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #000;
+    color: rgb(241, 241, 241);
+    padding: 10px 30px;
+    background: url('https://wallpapersmug.com/download/2560x1080/1786fa/snowy-peak-flat-mountains-minimal.jpg') no-repeat;
+    height: 100vh;
+    background-position: center;
+    font-family: Arial;
+}
+
+.texto-esquerda {
+    position: absolute;
+    bottom: -125px;
+    margin: 5px;
+}
+
+.cabecalho {
+    font-size: 1.8rem;
+}
+
+.cabecalho ul {
+    background-color: #000;
+    opacity: 0.6;
+    padding: 25px 50px;
+    border-radius: 50px;
+    box-shadow: 0px 0px 5px black;
+}
+
+.cabecalho a {
+    display: inline;
+    text-decoration: none;
+    color: rgb(252, 249, 249);
+    font-weight: 700;
+    
+    /* font-weight: bold; */
+}
+
+.menu {
+    float: right;
+    width: auto;
+}
+
+.menu li {
+    list-style: none;
+    list-style-type: none;
+    padding: 13px;
+    display: inline-block;
+    letter-spacing: 1.5px;
+    margin-right: 10px;
+    text-transform: uppercase;
+    margin-top: -8px;
+    border-radius: 25px;
+    transition: 0.7s all;
+    margin-top: -200px;
+}
+
+.menu li:hover {
+    transition: 0.7s all;
+    background-color: #fff;
+    color: rgb(182, 12, 12);
+}
+
+.contato {
+    padding: 20px;
+    border-radius: 30px;
+    /* border: 2px solid #000; */
+    margin: 20px;
+    position: left;
+    text-align: right;
+    font-size: 1.9rem;
+  
+}
+
+.contato label, .contato textarea {
+    display: block;
+    width: 100%;
+}
+
+.contato input, .contato textarea {
+    border-radius: 25px;
+    border: none;
+    padding: 5px;
+    outline: none;
+    width: 75%;
+}
+
+.contato textarea {
+    height: 100px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.enviar {
+    width: 40%;
+    margin-top: 10px;
+}
+
+.contato input[type=submit]{
+    width: 40%;
+    margin-top: 10px;
+}
+
+.main {
+    font-size: 3rem;
+    color: #3d3636;
+    width: 60%;
+    display: inline-block;
+    margin: 6rem;
+}
+
+@media (max-width: 798px) {
+    .cabecalho ul {
+        font-size: 1.8rem;
+        width: 100%;
+        margin: 0;
+        padding: 8px;
+        text-align: center;
+    }
+    .menu {
+        display: none;
+    }
+    .titulo-main {
+        display: block;
+        position: relative;
+        width: 100%;
+        font-size: 2rem;
+    }
+    .contato {
+        position: relative;
+        width: 100%;
+        top: 0;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        font-size: 1.4rem;
+        padding: 0px;
+    }
+    .main {
+        margin: 0;
+        text-align: center;
+        font-size: 1.9rem;
+        width: 100%;
+        margin-top: 12px;
+        margin-bottom: 12px;
+    }
+    .container {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+     
+      
+}
