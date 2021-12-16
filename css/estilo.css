@@ -23,6 +23,7 @@ body {
 
 .cabecalho {
     font-size: 1.8rem;
+    margin-top: 20px;
 }
 
 .cabecalho ul {
@@ -60,12 +61,17 @@ body {
     transition: 0.7s all;
     margin-top: -200px;
 }
+.container {
+    height: 100px;
+}
 
 .menu li:hover {
     transition: 0.7s all;
     background-color: #fff;
     color: rgb(182, 12, 12);
 }
+
+
 
 .contato {
     padding: 20px;
@@ -89,6 +95,14 @@ body {
     padding: 5px;
     outline: none;
     width: 75%;
+    font-size: 1.3rem;
+    padding-left: 10px;
+    padding-right: 10px;
+    transition: 0.7s all;
+}
+.contato input:focus, .contato textarea:focus {
+    transition: 0.7s all;
+
 }
 
 .contato textarea {
@@ -100,6 +114,7 @@ body {
 .enviar {
     width: 40%;
     margin-top: 10px;
+    transition: all;
 }
 
 .contato input[type=submit]{
@@ -157,4 +172,39 @@ body {
     }
      
       
+}
+
+@media (max-width: 320px){
+    .cabecalho ul {
+        height: auto;
+    }
+    body {
+        background-color: #000;
+    }
+}
+
+@media (max-width: 1280px){
+    .cabecalho ul {
+        font-size: 1.1rem;
+        height: auto;
+    }
+    .main {
+        font-size: 1.8rem;
+        margin: 2.6rem;
+        width: 553;
+        padding: 0;
+    }
+    .contato {
+        padding: 5px;
+        width: 35px;
+        right: 15px;
+        top: 90px;
+    }
+}
+@media (min-height: 1366px){
+
+}
+.rodape {
+    padding: 50px;
+    
 }
