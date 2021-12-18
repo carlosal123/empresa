@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+body {
+    background: url('http://www.fundospaisagens.com/1920x1080/wallpaper-do-espaco.jpg')no-repeat;
+}
+.contato {
+    color: white;
+    max-width: 980px;
+    text-align: center;
+    margin: 5rem auto;
+    
+}
+
+.contato h3 {
+    font-size: 4rem;
+}
+.sobre p {
+    font-size: 2rem;
+}

@@ -9,7 +9,7 @@ body {
     background-color: #000;
     color: rgb(241, 241, 241);
     padding: 10px 30px;
-    background: url('https://wallpapersmug.com/download/2560x1080/1786fa/snowy-peak-flat-mountains-minimal.jpg') no-repeat;
+    background: url('https://hd-wallpaper.wiki/wp-content/uploads/2021/07/1920x1080-lamborghini-wallpapers.jpg') no-repeat;
     height: 100vh;
     background-position: center;
     font-family: Arial;
@@ -24,6 +24,10 @@ body {
 .cabecalho {
     font-size: 1.8rem;
     margin-top: 20px;
+}
+.ativo {
+    color: black;
+    background-color: white;
 }
 
 .cabecalho ul {

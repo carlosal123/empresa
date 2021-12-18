@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+body {
+    background: url('https://wallpapercave.com/wp/wp5405231.jpg')no-repeat;
+}
+.sobre {
+    color: white;
+    max-width: 980px;
+    text-align: center;
+    margin: 5rem auto;
+}
+
+.sobre h3 {
+    font-size: 4rem;
+}
+.sobre p {
+    font-size: 2rem;
+}
